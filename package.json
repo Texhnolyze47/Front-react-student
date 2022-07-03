@@ -1,7 +1,7 @@
 {
   "name": "studentfrontend",
   "version": "0.1.0",
-  "homepage":"https://texhnolyze47.github.io/Front-react-student/",
+  "homepage":"https://Texhnolyze47.github.io/Front-react-student/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
