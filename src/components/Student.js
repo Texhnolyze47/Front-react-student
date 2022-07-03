@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 export default function Student() {
   const paperStyle = { padding: '50px 20px', width: 600, margin:' 20px auto'}
   const [name, setName] = useState('');
-  const [address, setAdress] = useState('');
+  const [address, setAddress] = useState('');
   const [students, setStudents] = useState([]);
 
   const handleSubmit = (e) => {
@@ -55,7 +55,7 @@ export default function Student() {
         <TextField id="outlined-basic" label="Student Address" variant="outlined"  fullWidth 
         //el value es para que el valor que se ingrese en el input se guarde en el state
         value={address}
-        onChange={(e) => setAdress(e.target.value)}
+        onChange={(e) => setAddress(e.target.value)}
         />
         <Button variant="contained" onClick={handleSubmit}>Submit</Button>
 
