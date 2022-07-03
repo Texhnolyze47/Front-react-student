@@ -17,7 +17,7 @@ export default function Student() {
     e.preventDefault();
     const student = {name, address};
     console.log(student);
-    fetch('http://localhost:8080/student/add', {
+    fetch('https://api-springv1.herokuapp.com/student/add', {
       method: 'POST',
       headers: {'Content-type': 'application/json'},
       body: JSON.stringify(student)
@@ -27,7 +27,7 @@ export default function Student() {
   }
 
   React.useEffect(() => {
-    fetch('http://localhost:8080/student/getAll')
+    fetch('https://api-springv1.herokuapp.com/student/getAll')
     .then(res => res.json())
     .then(result => {
       setStudents(result);
