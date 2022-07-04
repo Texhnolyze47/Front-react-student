@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Front-react-student/static/css/main.073c9b0a.css",
+    "main.js": "/Front-react-student/static/js/main.f54853f2.js",
+    "static/js/787.512d3da4.chunk.js": "/Front-react-student/static/js/787.512d3da4.chunk.js",
+    "index.html": "/Front-react-student/index.html",
+    "main.073c9b0a.css.map": "/Front-react-student/static/css/main.073c9b0a.css.map",
+    "main.f54853f2.js.map": "/Front-react-student/static/js/main.f54853f2.js.map",
+    "787.512d3da4.chunk.js.map": "/Front-react-student/static/js/787.512d3da4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f54853f2.js"
+  ]
+}
